@@ -1,0 +1,9 @@
+/*                     *
+ *                     *
+ * Remove Social Links *
+ *                     *
+ *                     */
+
+.sidebar-nav > ul.nav-list:nth-child(1) {
+    display: none;
+}

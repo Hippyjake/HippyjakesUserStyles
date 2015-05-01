@@ -1,0 +1,39 @@
+/*                  *
+ *                  *
+ * Fancy blockquote *
+ *                  *
+ *                  */
+
+.post blockquote {
+    background-color: rgba(0, 0, 0, .3);
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    width: 85%
+}
+
+.well blockquote {
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 15px
+}
+
+blockquote:before {
+    color: /*[[highlight]]*/;
+    content: open-quote;
+    font-size: 5em;
+    line-height: .1em;
+    margin-right: .25em;
+    vertical-align: -.4em
+}
+
+blockquote:after {
+    color: /*[[highlight]]*/;
+    content: close-quote;
+    font-size: 5em;
+    line-height: .1em;
+    margin-left: .25em;
+    vertical-align: -.5em
+}
+
+blockquote p {
+    display: inline
+}

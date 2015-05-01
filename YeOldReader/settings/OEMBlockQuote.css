@@ -1,0 +1,15 @@
+/*                       *
+ *                       *
+ * OEM style blockquote  *
+ *                       *
+ *                       */
+
+.post blockquote {
+    background-color: rgba(0, 0, 0, .3);
+    width: 85%;
+}
+
+.well blockquote {
+    border-color: /*[[highlight]]*/;
+    padding: 15px
+}

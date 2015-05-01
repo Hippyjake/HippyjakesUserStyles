@@ -1,0 +1,13 @@
+/*               *
+ *               *
+ * Hover Top Bar *
+ *               *
+ *               */
+
+div.navbar-fixed-top:not(:hover) {
+    margin-top: -50px !important
+}
+
+div.container-fluid {
+    margin-top: -54px !important
+}

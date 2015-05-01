@@ -1,0 +1,95 @@
+@-moz-document regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/edit.html.*"),
+regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/manage.html*"),
+regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/popup.html.*") {
+/*                                                            
+ *   _____                 _   _            ____          _   
+ *  |     |___ ___ ___ ___| |_|_|___ ___   |    \ ___ ___| |_ 
+ *  |-   -|   |  _| -_| . |  _| | . |   |  |  |  | .'|  _| '_|
+ *  |_____|_|_|___|___|  _|_| |_|___|_|_|  |____/|__,|_| |_,_|
+ *                    |_|                                     
+ *                                                   hippyjake
+ *
+ */
+
+a,
+a:visited {
+    -webkit-transition: color 0.5s;
+    color: #1a87b9
+}
+
+button {
+    background: #25a6e1;
+    border: 1px solid #1a87b9;
+    border-radius: 4px;
+    color: #fff;
+    font: 17px Helvetica Neue, sans-serif
+}
+
+input[type=checkbox] {
+    -webkit-appearance: textfield;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05), inset 0 -15px 10px -12px rgba(0, 0, 0, .05);
+    color: #fff;
+    cursor: auto;
+    display: inline-block;
+    padding: 9px;
+    position: relative
+}
+
+input[type=checkbox]:active,
+input[type=checkbox]:checked:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05), inset 0 1px 3px rgba(0, 0, 0, .1)
+}
+
+input[type=checkbox]:checked {
+    background-color: #e9ecee;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05), inset 0 -15px 10px -12px rgba(0, 0, 0, .05), inset 15px 10px -12px rgba(255, 255, 255, .1);
+    color: #99a1a7
+}
+
+input[type=checkbox]:checked:after {
+    color: #99a1a7;
+    content: '\2714';
+    font-size: 14px;
+    left: 3px;
+    position: absolute;
+    top: 0
+}
+
+#options .option > * {
+    padding-right: 0.52rem
+}
+
+input {
+    background: transparent;
+    border: solid 2px #7d7d7d;
+    border-radius: 5px;
+    color: #fff
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .3)
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .4)
+}
+/*[[codeTheme]]*/
+}

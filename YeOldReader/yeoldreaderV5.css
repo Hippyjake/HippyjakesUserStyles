@@ -1,0 +1,362 @@
+@-moz-document domain("theoldreader.com") {
+
+/*                                                   
+ *   __ __     _____ _   _ _____           _         
+ *  |  |  |___|     | |_| | __  |___ ___ _| |___ ___ 
+ *  |_   _| -_|  |  | | . |    -| -_| .'| . | -_|  _|
+ *    |_| |___|_____|_|___|__|__|___|__,|___|___|_|  
+ *                                                   
+ *                                          hippyjake
+ *
+ */
+
+
+
+.dropdown-menu,
+.hero-unit.posts-filler span,
+.home-page .ourstuff a,
+.label.label-transparent,
+.nav-collapse,
+.navbar .nav li a,
+.row-fluid,
+.shortcuts.shortcuts.modal.hide.fade.in,
+.span3,
+body,
+div.hero-unit.no-posts{
+    background: /*[[background]]*/;
+    color: /*[[textcolor]]*/
+}
+
+.nav-list li.nav-header a,
+.nav-list li.nav-header a:focus,
+.nav-list li.nav-header a:hover {
+    color: /*[[highlight]]*/ !important;
+    font-size: 12px
+}
+
+.container > .row-fluid {
+    height: 58px
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: /*[[background]]*/
+}
+
+.dropdown-menu > li > a,
+.post .content {
+    color: /*[[textcolor]]*/ !important
+}
+
+.dropdown-menu > li > a:hover {
+    background: /*[[background]]*/ !important
+}
+
+.navbar .nav li .dropdown-menu {
+    background: 0;
+    border: 0 none;
+    border-radius: 0
+}
+
+.page-header {
+    border-bottom: 0 solid #1e1e1e
+}
+
+.well {
+    background: rgba(0, 0, 0, .3);
+    border: 0
+}
+
+.home-page dl dd p a,
+.nav-list li a,
+.post h3 a,
+a {
+    color: /*[[textcolor]]*/
+}
+
+.home-page .ourstuff ul:first-child li:first-child a,
+.nav-list li.active a,
+.nav-list li.active a:hover,
+a {
+    color: /*[[highlight]]*/
+}
+
+.nav-list li a:hover,
+.nav-list strong:hover,
+a.li:hover,
+a.social:hover {
+    color: /*[[textcolor]]*/ !important;
+    text-decoration: underline;
+    text-shadow: 0 0 2px /*[[highlight]]*/ !important
+}
+
+.post.unread {
+    border-left: 4px solid /*[[highlight]]*/ !important;
+    padding: 10px 10px 10px 20px
+}
+
+.post.unread .content {
+    color: #888!important
+}
+
+.post {
+    padding: 10px 10px 10px 20px
+}
+
+.label.label-social,
+element.style {
+    background-color: /*[[highlight]]*/
+}
+
+.reader .floating {
+    background: transparent;
+    padding: 5px 0 10px
+}
+
+.badge,
+.badge.badge-info,
+.nav-list li.active a:not(.i):before,
+.post .btns .likes a,
+element.style,
+span.badge {
+    background-color: /*[[highlight]]*/ !important;
+    border: 1px solid /*[[highlight]]*/;
+    color: /*[[labletext]]*/
+}
+
+.btn.active,
+.btn.disabled,
+.btn:active,
+.btn:focus,
+.btn:hover,
+.label.label-feed {
+    background-color: /*[[highlight]]*/;
+    color: /*[[labletext]]*/
+}
+
+.nano > .pane > .slider,
+a.btn.btn-primary.btn-small {
+    background: /*[[highlight]]*/
+}
+
+.subscribe .btn-primary {
+    background: /*[[button-bg]]*/;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: none;
+    color: /*[[textcolor]]*/;
+    padding: 8px 20px
+}
+
+.btn-primary,
+.subscribe {
+    background: /*[[background]]*/
+}
+
+.nav-list li.active a:not(.i):before,
+.nav-list li.nav-header.active a:not(.i):before {
+    border-left: 3px solid /*[[highlight]]*/
+}
+
+.btn,
+.btn.btn-small.btn-read {
+    background-color: /*[[button-bg]]*/;
+    background-image: none;
+    border: 0;
+    color: /*[[labletext]]*/;
+    text-shadow: none
+}
+
+.btn.btn-small.btn-read:hover,
+a.btn.btn-mini.unsubscribe.external:hover,
+a.btn.btn-small.btn-like:hover,
+a.btn.btn-small.btn-share:hover,
+a.btn.btn-small.read:hover,
+a.btn.btn-small.refresh:hover,
+a.btn.btn-small.settings.has-tooltip:hover,
+a.btn.btn-small.settings:hover,
+button.btn.btn-small.post-down:hover,
+button.btn.btn-small.post-up:hover {
+    background-color: /*[[highlight]]*/;
+    color: /*[[labletext]]*/;
+    text-shadow: none !important
+}
+
+input.input-xlarge.search-query {
+    background: /*[[background]]*/;
+    border: 1px solid /*[[highlight]]*/;
+    color: /*[[textcolor]]*/
+}
+
+input.input-xlarge.search-query:focus {
+    -moz-box-shadow: 0 0 30px 0 /*[[highlight]]*/;
+    -webkit-box-shadow: 0 0 30px 0 /*[[highlight]]*/;
+    background: /*[[background]]*/;
+    border: 1px solid /*[[highlight]]*/;
+    box-shadow: 0 0 30px 0 /*[[highlight]]*/;
+    color: /*[[textcolor]]*/
+}
+
+.post hr {
+    background-color: /*[[highlight]]*/;
+    border: 0;
+    height: 1px;
+    margin: 8px;
+    padding: 0
+}
+
+pre code {
+    background-color: transparent;
+    color: green;
+    font-weight: 700;
+    padding: 0
+}
+
+pre {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #000;
+    border-radius: 4px;
+    display: block;
+    word-break: normal;
+    word-wrap: break-word
+}
+.nav-list li { 
+    margin-left: 20px; 
+}
+
+/*[[blockquote]]*/
+
+/*[[sociallinks]]*/
+
+/*[[hovertop]]*/
+
+}
+
+
+/*                               
+ *   _____     _   _             
+ *  |     |___| |_|_|___ ___ ___ 
+ *  |  |  | . |  _| | . |   |_ -|
+ *  |_____|  _|_| |_|___|_|_|___|
+ *        |_|                    
+ */
+    
+/*                  *
+ *                  *
+ * Fancy blockquote *
+ *                  *
+ *                  */
+
+.post blockquote {
+    background-color: rgba(0, 0, 0, .3);
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    width: 85%
+}
+
+.well blockquote {
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 15px
+}
+
+blockquote:before {
+    color: /*[[highlight]]*/;
+    content: open-quote;
+    font-size: 5em;
+    line-height: .1em;
+    margin-right: .25em;
+    vertical-align: -.4em
+}
+
+blockquote:after {
+    color: /*[[highlight]]*/;
+    content: close-quote;
+    font-size: 5em;
+    line-height: .1em;
+    margin-left: .25em;
+    vertical-align: -.5em
+}
+
+blockquote p {
+    display: inline
+}
+
+/*                       *
+ *                       *
+ * OEM style blockquote  *
+ *                       *
+ *                       */
+
+.post blockquote {
+    background-color: rgba(0, 0, 0, .3);
+    width: 85%;
+}
+
+.well blockquote {
+    border-color: /*[[highlight]]*/;
+    padding: 15px
+}
+
+/*                     *
+ *                     *
+ * Remove Social Links *
+ *                     *
+ *                     */
+
+.sidebar-nav > ul.nav-list:nth-child(1) {
+    display: none;
+}
+
+/*                          *
+ *                          *
+ * Hover Top Bar - Animated *
+ *                          *
+ *                          */
+
+.navbar.navbar-fixed-top{
+	top: -50px;
+-webkit-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+   -moz-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+    -ms-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+     -o-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+        transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+
+-webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+    -ms-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+        transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+}
+.navbar.navbar-fixed-top:hover{
+	top:0;
+-webkit-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+   -moz-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+    -ms-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+     -o-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+        transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+
+-webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+    -ms-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+        transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+}
+.reader .container-fluid{
+	margin-top: -54px !important
+}
+
+/*               *
+ *               *
+ * Hover Top Bar *
+ *               *
+ *               */
+
+div.navbar-fixed-top:not(:hover) {
+    margin-top: -50px !important
+}
+
+div.container-fluid {
+    margin-top: -54px !important
+}
+

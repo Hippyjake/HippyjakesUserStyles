@@ -1,0 +1,126 @@
+/*                                           
+ *   __    _     _   _   _____     _   _     
+ *  |  |  |_|___| |_| |_|_   _|___| |_| |___ 
+ *  |  |__| | . |   |  _| | | | .'| . | | -_|
+ *  |_____|_|_  |_|_|_|   |_| |__,|___|_|___|
+ *          |___|                            
+ */
+
+body {
+    background: #202020;
+    color: #fff
+}
+
+.CodeMirror {
+    background-color: #202020;
+    color: #ccc;
+    height: 70%;
+    padding-left: 8px
+}
+
+.CodeMirror .inline-widget {
+    background: #272727;
+    color: #ccc
+}
+
+.CodeMirror.CodeMirror .inline-widget h1,
+.CodeMirror.CodeMirror .inline-widget h2,
+.CodeMirror.CodeMirror .inline-widget h3 {
+    color: #ccc
+}
+
+.CodeMirror.CodeMirror .inline-widget code,
+.CodeMirror.CodeMirror .inline-widget dt,
+.CodeMirror.CodeMirror .inline-widget li,
+.CodeMirror.CodeMirror .inline-widget p {
+    color: #fff
+}
+
+.CodeMirror.CodeMirror .CodeMirror-gutters {
+    background: #202020;
+    border-color: #202020
+}
+
+.CodeMirror.CodeMirror .CodeMirror-linenumbers {
+    background-color: #202020
+}
+
+.CodeMirror.CodeMirror .CodeMirror-linenumber {
+    color: #99997a;
+    padding-left: 5px
+}
+
+.CodeMirror.CodeMirror .CodeMirror-activeline {
+    background: rgba(255, 255, 255, .1)
+}
+
+.CodeMirror.CodeMirror pre {
+    padding: 0 8px
+}
+
+.CodeMirror.CodeMirror .CodeMirror-cursor {
+    border-left: 1px solid #fff
+}
+
+.CodeMirror.CodeMirror .CodeMirror-selected {
+    background: rgba(255, 255, 255, .2)
+}
+
+.CodeMirror.CodeMirror .CodeMirror-matchingbracket {
+    border-bottom: 1px solid #3ff;
+    color: #ccc19b
+}
+
+.CodeMirror.CodeMirror .CodeMirror-unmatchingbracket {
+    border-bottom: 1px solid #cb3233;
+    color: #cb3233
+}
+
+.CodeMirror.CodeMirror .cm-comment {
+    color: #968879
+}
+
+.CodeMirror.CodeMirror .cm-property {
+    color: #aaa
+}
+
+.CodeMirror.CodeMirror .cm-qualifier {
+    color: #aaeeab
+}
+
+.CodeMirror.CodeMirror .cm-tag {
+    color: #7ac1ff
+}
+
+.CodeMirror.CodeMirror .cm-def,
+.CodeMirror.CodeMirror .cm-variable-2 {
+    color: #acf
+}
+
+.CodeMirror.CodeMirror .cm-number {
+    color: #ccccab
+}
+
+.CodeMirror.CodeMirror .cm-atom {
+    color: #cc9dc7
+}
+
+.CodeMirror.CodeMirror .cm-keyword {
+    color: #aacd80
+}
+
+.CodeMirror.CodeMirror .cm-string {
+    color: #add
+}
+
+.CodeMirror.CodeMirror .cm-string-2 {
+    color: #7ad1dd
+}
+
+.CodeMirror.CodeMirror .cm-variable {
+    color: #ccc19b
+}
+
+.CodeMirror.CodeMirror .cm-attribute {
+    color: #83e1b2
+}

@@ -11,6 +11,8 @@ regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/popup.html.*") {
  *
  */
 
+/*[[codeTheme]]*/
+
 a,
 a:visited {
     -webkit-transition: color 0.5s;
@@ -91,5 +93,17 @@ input {
 ::-webkit-scrollbar-thumb:active {
     background: rgba(255, 255, 255, .4)
 }
-/*[[codeTheme]]*/
+
+#save-button:after {
+    content:'d';
+}
+
+body.dirty #save-button {
+    background: red;
+}
+
+body.dirty #save-button:after {
+    content:'?';
+}
+
 }

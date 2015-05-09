@@ -10,4 +10,4 @@ LightTable theme was adapted from [A better CodeMirror Theme](http://yannick-loh
 
 ## Change Log
 
-Update 5-1-15: Going GIT
+View changelog at https://github.com/Hippyjake/HippyjakesUserStyles/commits/master

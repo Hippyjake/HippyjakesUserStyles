@@ -95,14 +95,17 @@ input {
 }
 
 #save-button:after {
+    transition: background-color 1s ease;
     content:'d';
 }
 
 body.dirty #save-button {
+    transition: background-color 1s ease;
     background: red;
 }
 
 body.dirty #save-button:after {
+    transition: background-color 1s ease;
     content:'?';
 }
 

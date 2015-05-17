@@ -88,6 +88,10 @@ body {
     color: #aaeeab
 }
 
+.cm-s-default .cm-builtin {
+  color: #aaeeab;
+}
+
 .CodeMirror.CodeMirror .cm-tag {
     color: #7ac1ff
 }

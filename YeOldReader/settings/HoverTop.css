@@ -11,3 +11,8 @@ div.navbar-fixed-top:not(:hover) {
 div.container-fluid {
     margin-top: -54px !important
 }
+
+.navbar .navbar-inner {
+    background-color: /*[[background]]*/;
+    border-bottom: 1px solid /*[[highlight]]*/
+}

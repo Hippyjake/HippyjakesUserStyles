@@ -5,15 +5,14 @@
  *                  */
 
 .post blockquote {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .1);
     quotes: "\201C" "\201D" "\2018" "\2019";
-    width: 85%
 }
 
 .well blockquote {
     border-color: transparent;
     border-radius: 4px;
-    padding: 15px
+    padding: 15px 5px 5px 5px
 }
 
 blockquote:before {
@@ -32,8 +31,4 @@ blockquote:after {
     line-height: .1em;
     margin-left: .25em;
     vertical-align: -.5em
-}
-
-blockquote p {
-    display: inline
 }

@@ -4,12 +4,9 @@
  *                       *
  *                       */
 
-.post blockquote {
-    background-color: rgba(0, 0, 0, .3);
-    width: 85%;
-}
-
+.post blockquote,
 .well blockquote {
-    border-color: /*[[highlight]]*/;
-    padding: 15px
+	background-color: rgba(0,0,0,.1);
+	border-color: /*[[highlight]]*/;
+	padding: 15px
 }

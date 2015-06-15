@@ -1,0 +1,17 @@
+
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 37.000015">
+ <g transform="matrix(1 0 0 1 155.59 -360.95)">
+  <g style="fill:#2d2d2d;fill-opacity:1">
+   <text x="-88.19" y="372.53" line-height="125%" style="letter-spacing:0;word-spacing:0;font-size:15.405;font-family:sans-serif;font-weight:normal;stroke:none;font-style:normal"><tspan x="-88.19" y="372.53" style="font-family:URW Gothic L;font-variant:normal;font-stretch:normal">YeOld</tspan>
+   </text>
+   <text x="-120.88" y="397.42" line-height="125%" style="letter-spacing:0;word-spacing:0;font-size:40.705;font-family:sans-serif;font-weight:normal;stroke:none;font-style:normal"><tspan x="-120.88" y="397.42" style="font-family:URW Gothic L;font-variant:normal;font-stretch:normal">Reader</tspan>
+   </text>
+   <g transform="matrix(0.09635 0 0 0.09635 -161.75 354.78)">
+    <path d="m 119.9 336.1 c -30.8 0 -55.9 25.1 -55.9 55.8 0 30.8 25.1 55.6 55.9 55.6 30.9 0 55.9 -24.9 55.9 -55.6 0 -30.7 -25 -55.8 -55.9 -55.8 z"/>
+    <path d="m 64,192 0,79.9 c 48,0 94.1,14.199 128,48.1 33.9,33.901 48,79.9 48,128 l 80,0 C 320,308.1 204,192 64,192 Z"/>
+    <path d="m 64,64 0,79.9 c 171,0 303.9,133 303.9,304.1 l 80.1,0 C 448,236.3 276,64 64,64 Z"/>
+   </g>
+  </g>
+ </g>
+</svg>

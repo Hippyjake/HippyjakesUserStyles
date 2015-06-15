@@ -10,7 +10,7 @@
  *
  */
 .navbar .brand {
-  background-image: url("https://raw.githubusercontent.com/Hippyjake/HippyjakesUserStyles/master/YeOldReader/logo/logo-dark.svg");
+  background-image: url("/*[[logo]]*/");
 }
 body {
     background-color: /*[[background]]*/;

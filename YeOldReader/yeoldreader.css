@@ -210,6 +210,7 @@ a:hover {
     background: /*[[highlight]]*/;
     color: /*[[textcolor]]*/
 }
+.hero-unit.posts-filler span,
 .hero-unit,
 .reader .floating {
     background: transparent

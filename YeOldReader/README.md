@@ -26,27 +26,3 @@ I have borrowed some text style from [The Old Reader Dark](http://userstyles.org
 The optional social link option was provided by [The Old Reader - Hide Sidebar Social Links](https://userstyles.org/styles/85068/the-old-reader-hide-sidebar-social-links)
 
 The hover bar option was provided by [The Old Reader - Compact and Hover Menu](https://userstyles.org/styles/86403/the-old-reader-compact-and-hover-menu)
-
-## Change log
-
-Update 3-14-15: Fix h2 style using background color, more uniform button text color.
-
-Update 2-25-15: Add style for pre and code blocks. New option to make the top bar hide and show on hover.(amazing for netbooks!)
-
-Update 2-23-15: New default button background color, its the next darkest shade in a monocromatic scale. Subscribe button now has a 3px border-radius. Some code has been reranged for faster loading (I hope nothing broke).
-
-Update 2-20-15: With any luck this update will add;
-
-* Color Options for
-  * Background Color
-  * Button Background Color
-  * Body Text Color
-  * Badge and Label Text Color
-* Social links are optional but on by default
-
-
-Update 2-19-15: Added focus style to search box, Fixed fancy blockquote highlight color being stuck at default color.
-
-Update 2-16-15: Update Fancy blockquote style for readability
-
-Update 2-15-15: Improved Button style and scrollbars now use the highlight color

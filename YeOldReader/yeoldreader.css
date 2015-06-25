@@ -5,10 +5,12 @@
  *  |  |  |___|     | |_| | __  |___ ___ _| |___ ___ 
  *  |_   _| -_|  |  | | . |    -| -_| .'| . | -_|  _|
  *    |_| |___|_____|_|___|__|__|___|__,|___|___|_|  
- *                       Version 2.0.0 - Fork No More
+ *                       Version 2.0.1 - Fork No More
  *                                          hippyjake
  *
  */
+ html { overflow:hidden !important; }
+ 
 .navbar .brand {
   background-image: url("/*[[logo]]*/");
 }

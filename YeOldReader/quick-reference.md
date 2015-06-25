@@ -23,9 +23,9 @@ Hover Top Menu-Search bar
 ## Default Option Values
 |Name|Value|
 |:---|:----|
-|highlight |#0099CC|
+|highlight |#1E92FF|
 |background|#2d2d2d|
-|button-bg |#636363|
+|button-bg |#1461A8|
 |textcolor |#f1f1f1|
 |labletext |#ffffff|
 |blockquote |stock|

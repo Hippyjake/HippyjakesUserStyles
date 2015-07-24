@@ -5,7 +5,7 @@
  *  |  |  |___|     | |_| | __  |___ ___ _| |___ ___ 
  *  |_   _| -_|  |  | | . |    -| -_| .'| . | -_|  _|
  *    |_| |___|_____|_|___|__|__|___|__,|___|___|_|  
- *                       Version 2.0.1 - Fork No More
+ *                       Version 2.0.2 - Fork No More
  *                                          hippyjake
  *
  */
@@ -247,8 +247,17 @@ a:hover {
     color: #cfcfcf !important
 }
 .post img {
-    display: block !important;
+    /*display: block !important;*/
     padding: 5px 5px 5px 0 !important
+}
+.modal{
+	background: /*[[background]]*/;
+}
+.modal-backdrop {
+    background-color: /*[[background]]*/;
+}
+.close {
+    color: #FFF;
 }
 
 /*[[blockquote]]*/

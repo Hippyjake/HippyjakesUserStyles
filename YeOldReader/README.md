@@ -1,6 +1,3 @@
-Whats new? See the Change log at the bottom
-
-
 Allows the customization of:
 
 * Color Options for
